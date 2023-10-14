@@ -11,6 +11,7 @@ variable "prefix" {
 
 variable "bucket_prefix" {
   description = "This prefix is for S3 bucket."
+  default = "rajkala"
 }
 
 variable "region" {
